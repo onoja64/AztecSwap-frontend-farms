@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'GOLD',
     lpAddresses: {
-      97: '',
+      97: '0x78867bbeef44f2326bf8ddd1941a4439382ef2a7',
       56: '0xb50539EAC8971052a96A2E466C6865b942835C56', // GOLD-BUSD LP
     },
     tokenSymbol: 'GOLD',
     tokenAddresses: {
-      97: '',
+      97: '0xe471ed3026f4d098f58a52bb349757bd35a1ecb3',
       56: '0x8298fea38aa8627316ffd943fe001b69cac8174d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
@@ -22,12 +22,12 @@ const farms: FarmConfig[] = [
     pid: 1,
     lpSymbol: 'GOLD-BUSD LP',
     lpAddresses: {
-      97: '',
+      97: '0x78867bbeef44f2326bf8ddd1941a4439382ef2a7',
       56: '0xb50539EAC8971052a96A2E466C6865b942835C56', // GOLD-BUSD LP
     },
-    tokenSymbol: 'GOLD',
+    tokenSymbol: 'TEST',
     tokenAddresses: {
-      97: '',
+      97: '0xe471ed3026f4d098f58a52bb349757bd35a1ecb3',
       56: '0x8298fea38aa8627316ffd943fe001b69cac8174d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
     pid: 2,
     lpSymbol: 'GOLD-BNB LP',
     lpAddresses: {
-      97: '',
+      97: '0x4e081a871fcdfd06c8a4b5e670bb8758d6c1c5ef',
       56: '0xa040492a50f0034894eb6df0a4d6c8ac33b92cfd', // GOLD-BNB LP
     },
     tokenSymbol: 'GOLD',
